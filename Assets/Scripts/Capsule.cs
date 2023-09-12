@@ -29,7 +29,7 @@ public class Capsule : Shape //INHERITANCE
         scaleRate = scale;
     }
 
-    public override void PerformAction()
+    public override void PerformAction() //POLYMORPHISM
     {
         base.PerformAction();
         if (transform.localScale.y > 7)

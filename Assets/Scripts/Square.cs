@@ -27,7 +27,7 @@ public class Square : Shape //INHERITANCE
         rotationSpeed = 50f;
     }
 
-    public override void PerformAction()
+    public override void PerformAction() //POLYMORPHISM
     {
         base.PerformAction();
         gameObject.transform.Rotate(Vector3.forward, rotationSpeed * Time.deltaTime);

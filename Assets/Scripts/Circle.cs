@@ -31,7 +31,7 @@ public class Circle : Shape //INHERITANCE
         boundary = 10;
     }
 
-    public override void PerformAction()
+    public override void PerformAction() //POLYMORPHISM
     {
         base.PerformAction();
         gameObject.transform.Translate(Vector3.up * translateSpeed * Time.deltaTime);
