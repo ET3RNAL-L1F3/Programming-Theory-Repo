@@ -32,7 +32,7 @@ public class Capsule : Shape //INHERITANCE
     public override void PerformAction()
     {
         base.PerformAction();
-        if (transform.localScale.y > 10)
+        if (transform.localScale.y > 7)
         {
             scaleRate = -scale;
         }
